@@ -22,10 +22,10 @@ function preload() {
   towerImage = loadImage("./assets/tower.png");
   boatSpritedata = loadJSON("assets/boat/boat.json");
   boatSpritesheet = loadImage("assets/boat/boat.png");
-  brokenBoatSpritedata = loadJSON("assets/boat/brokenBoat.json");
-  brokenBoatSpritesheet = loadImage("assets/boat/brokenBoat.png");
-  waterSplashSpritedata = loadJSON("assets/waterSplash/waterSplash.json");
-  waterSplashSpritesheet = loadImage("assets/waterSplash/waterSplash.png");
+  brokenBoatSpritedata = loadJSON("assets/boat/broken_boat.json");
+  brokenBoatSpritesheet = loadImage("assets/boat/broken_boat.png");
+  waterSplashSpritedata = loadJSON("assets/water_splash/water_splash.json");
+  waterSplashSpritesheet = loadImage("assets/water_splash/water_splash.png");
 }
 
 function setup() {
